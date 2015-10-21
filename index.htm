@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Multiplication table</title>
+        <meta name=description content="Multiplication table">
+        <meta name=keywords content="math, education"> 
+        <meta name="revisit after" content="15 days">
+        <meta name=ROBOTS content=all>
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <link rel="stylesheet" type="text/css" href="../main.css" />
+    </head>
+
+    <body>
+        <header>
+            <object data="../banner.svg" type="image/svg+xml" style="display:inline-block;float:left;white-space:nowrap;width:100%;padding:3% 3% 0 0"></object>
+
+            <div style="clear:both;"></div>
+            <h2 style="margin-top:0">Multiplication table</h2>
+        </header>
+
+        <div id="myEl"></div>
+
+        <script src="timestable.js"></script>
+        <script>
+            multiplicationTable(9, 'myEl');
+        </script>
+    </body>
+</html>
